@@ -1,0 +1,128 @@
+@media only screen and (max-width:480px){
+    body{
+      color:green;
+      width:100%;
+      padding:0px;
+      
+    }
+    
+    .headcontent{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  
+  
+  #wall{
+    float:right;
+    position:static;
+    right:0;
+  }
+  .container:hover{
+    color:green;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  }
+  .headcontent,#home{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  .leftheader{
+    flex-direction:column;
+    position:static;
+    left:30px;
+    margin:auto;
+    font-size:40px;
+   color:grey;
+   padding-top:2;
+   text-shadow:2px 2px 5px pink;
+  }
+  #flt-left{
+    float:left;
+    position:static;
+    left:0;
+  
+      margin:1px 15px;
+      padding:20px 10px;
+  }
+  #wall{
+    float:right;
+    position:static;
+    right:0;
+    
+      margin:1px 15px;
+      padding:20px 10px;
+  }
+  .container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+  
+  }
+  
+  .footer{
+    text-align:center;
+    border:1px solid black;
+    color:rgb(255,255,255);
+    background-color:black;
+  }
+  
+  h1{
+    opacity:0.4;
+    background-color:grey;
+    color:black;
+    text-align:center;
+  }
+  nav>ul>li{
+     display:inline-block;
+     box-shadow: 2px 2px 5px #c0c0c0;
+    
+    
+  }
+  
+  nav{
+    margin-left:60px;
+    
+  }
+  nav>ul>li>a{
+  padding: 60px;
+  text-decoration: none;
+  margin:auto;
+  }
+  #user{
+    margin:auto;
+   padding-left:40px;
+    border: 1px;
+    background-color:rgb(200,200,100);
+    width:500px;
+     margin-bottom:40px;
+  }
+  .btn,#button-send{
+    margin-left:50px;
+  }
+  #kitchen{
+     margin:1px 15px;
+      padding:20px 10px;
+  }
+  h2:hover,th:hover{
+    color:green;
+  }
+  
+  input,#choose-decor{
+    margin-left:30px;
+  }
+  #footer{
+   align-items:center;
+    background-color: black;
+    color:rgb(255,255,255);
+  }
+  #footer>table{
+    margin:auto;
+    border:2px solid black;
+  }
+  #footer>p{
+    text-align:center;
+  }

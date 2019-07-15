@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>HOUSE DECORATION</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="reservation.js"></script>
+  </head>
+  <body background-color="red">
+    <header class="headcontent">
+      <img src="https://i.pinimg.com/736x/b2/2b/8a/b22b8a1b95e0e8e00a049f57c8a32b16.jpg" height="200" width="70%">
+      <div class="leftheader">
+        <div>KEEP YOUR HOUSE CLEAN!</div>
+      <div>YOUR HOUSE, IS</div>
+    <div>YOUR PRIVATE PLACE!</div>
+    </div>
+   </header>
+
+  <div id="banner">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#service">Services</a></li>
+                  <li><a href="#contacts">Contact Us</a></li>
+                   <li><a href="reservation.html">Booking</a></li>
+                </ul>
+              </nav>
+            </div> 
+      <form id="user" method="post">
+        <div class="user-info">
+        <div id="names">
+          
+          <label for="input-names">Names</label>
+          <input type="text" id="input-names" placeholder="Enter your names here"/>
+        </div>
+        
+        </div>
+        <br><br>
+        <div>
+        <label for="e-mail">E-mail</label>
+        <input type="email" id="e-mail" placeholder="gentille1@moringa.com" required />
+        </div>
+         <br><br>
+        <div>
+          <label for="input-password">Password</label>
+          <input type="password" id="input-password" required />
+        </div>
+         <br><br>
+        <div id="decor-type">
+          <label for="choose-decor">Decor Type</label>
+          <select id="choose-decor" class="text-field">
+           <option value="1">Home decoration</option> 
+             <option value="2">Kitchen decoration</option>
+               <option value="3">Park decoration</option>
+                 <option value="4">Beach decoration</option>
+            
+          </select>
+            <br><br>
+          <div id="date">
+          <label for="input-date">Date</label>
+          <input type="date" id="input-date"  required />
+          <br><br>
+          <div class="btn">
+            <button type="reset" id="button-cancel" >Cancel</button>
+            <button id="button-send" onclick="btnsend()">Send</button>
+            </div>
+            
+          
+          </div>
+        </div>
+         
+      </form>
+    
+      <div class="footer">
+       <p>&#9993;: wedecor2019@gmail.com</p>
+         <p>&#9742;: +250788202693 </p>
+         <p>Our location at: Rwanda, Gisozi,KG 64</p>
+  
+      </div>
+  
+  </body>
+</html>
